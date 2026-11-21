@@ -3,82 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cantinho do Café | Cafeteria de bairro</title>
+  <title>Cantinho do Café</title>
   <style>
-    :root {
-      --cafe: #4a2c1a;
-      --cafe-claro: #7a4b2e;
-      --creme: #fbf3e6;
-      --caramelo: #d98e3f;
-      --texto: #2b1d14;
-    }
-    * { box-sizing: border-box; }
     body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8ee;
+      color: #333333;
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: var(--creme);
-      color: var(--texto);
-      line-height: 1.6;
+      text-align: center;
     }
     header {
-      background: var(--cafe);
-      color: var(--creme);
-      padding: 72px 24px 56px;
+      background-color: #6b3e26;
+      color: #ffffff;
+      padding: 40px 20px;
     }
-    .conteudo { max-width: 860px; margin: 0 auto; }
-    .marca { font-size: 18px; margin: 0 0 24px; color: var(--caramelo); }
-    h1 { font-size: clamp(34px, 6vw, 54px); line-height: 1.1; margin: 0 0 16px; }
-    header p.descricao { font-size: 20px; max-width: 540px; margin: 0; }
-    main { padding: 48px 24px; }
-    h2 { color: var(--cafe); font-size: 28px; margin: 0 0 24px; }
-    .itens { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
-    .item { border-left: 4px solid var(--caramelo); padding: 4px 0 4px 16px; }
-    .item h3 { margin: 0 0 6px; font-size: 20px; color: var(--cafe-claro); }
-    .item p { margin: 0; }
+    h1 {
+      margin: 0 0 10px;
+    }
+    main {
+      padding: 30px 20px;
+    }
+    h2 {
+      color: #6b3e26;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+    }
+    li {
+      margin: 12px 0;
+    }
     footer {
-      background: var(--cafe);
-      color: #e9d9c3;
-      padding: 24px;
-      font-size: 15px;
+      background-color: #6b3e26;
+      color: #ffffff;
+      padding: 15px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="conteudo">
-      <p class="marca">Cantinho do Café</p>
-      <h1>Um café quentinho para desacelerar o dia.</h1>
-      <p class="descricao">
-        Cafeteria de bairro com grãos selecionados, doces caseiros
-        e um cantinho sossegado para ler, conversar ou só descansar.
-      </p>
-    </div>
+    <h1>Cantinho do Café</h1>
+    <p>Uma cafeteria de bairro para tomar um café com calma.</p>
   </header>
 
   <main>
-    <div class="conteudo">
-      <h2>O que você encontra aqui</h2>
-      <div class="itens">
-        <div class="item">
-          <h3>Cafés especiais</h3>
-          <p>Espresso, coado e cappuccino feitos na hora.</p>
-        </div>
-        <div class="item">
-          <h3>Doces caseiros</h3>
-          <p>Bolos, tortas e pão de queijo saindo do forno toda manhã.</p>
-        </div>
-        <div class="item">
-          <h3>Espaço tranquilo</h3>
-          <p>Wi-Fi grátis, tomadas nas mesas e ambiente pet friendly.</p>
-        </div>
-      </div>
-    </div>
+    <h2>O que oferecemos</h2>
+    <ul>
+      <li><strong>Cafés:</strong> espresso, coado e cappuccino</li>
+      <li><strong>Doces:</strong> bolos e tortas caseiras</li>
+      <li><strong>Ambiente:</strong> tranquilo, com Wi-Fi grátis</li>
+    </ul>
   </main>
 
   <footer>
-    <div class="conteudo">
-      Desenvolvido por Fellipe Zucareli | Desenvolvimento de Sistemas AMS | ETEC Rodrigues de Abreu
-    </div>
+    Feito por Fellipe Zucareli | Informática para Internet | ETEC Rodrigues de Abreu
   </footer>
 </body>
 </html>
